@@ -87,7 +87,7 @@
                 <version>3.1.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>suites/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>suites/suites.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
