@@ -1,17 +1,14 @@
 pipeline{
 agent
 docker {
-image 'Apache Maven 3.9.0'
+image 'maven:3.9.0-eclipse-temurin-17'
 }
-tools{
-maven "maventest"}
-
 stages{
 
 stage('Build')
 {
 steps{
-bat "mvn clean"
+sh "mvn clean"
 }
 
 }
@@ -19,7 +16,7 @@ bat "mvn clean"
 stage('Test')
 {
 steps{
-bat 'mvn test -DsuiteXmlFile=suites/suites.xml'
+sh 'mvn test -DsuiteXmlFile=suites/suites.xml'
 }
 }
 
