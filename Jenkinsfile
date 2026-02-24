@@ -1,5 +1,8 @@
 pipeline{
-agent any
+agent
+docker {
+image 'Apache Maven 3.9.0'
+}
 tools{
 maven "maventest"}
 
