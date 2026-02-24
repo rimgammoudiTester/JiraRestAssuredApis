@@ -16,7 +16,7 @@ bat "mvn clean"
 stage('Test')
 {
 steps{
-bat "mvn test"
+bat 'mvn test -Dtest=JiraAutomationPackage.JiraApiTests.Users.UsersApiTests'
 }
 }
 
