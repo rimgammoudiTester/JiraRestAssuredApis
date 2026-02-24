@@ -1,4 +1,4 @@
-<suite name="JiraApiTests" parallel="methods" thread-count="5">
+<suite name="JiraApiTests" >
     <test name="UsersTests">
     <classes>
         <class name="JiraAutomationPackage.JiraApiTests.Users.UsersApiTests"/>

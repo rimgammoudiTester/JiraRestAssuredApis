@@ -7,37 +7,36 @@ import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class UsersApiTests extends UsersApi {
     GenericAssertsCalls asserts;
-     private Response res;
-     UtlisClass utlisClass;
+    private Response res;
+    UtlisClass utlisClass;
     UserPOJO userClass;
-     final String  ERROR_MESSAGE="[You are not authenticated. Authentication required to perform this operation.]";
-     private final String PRODCUTS_Missing="Vous devez indiquer les produits auxquels l'utilisateur peut accéder.";
-     private final String PRODUCT_ERROR_MESSAGE="Impossible de créer un utilisateur : nom de produit Jira non valide fourni dans la demande.";
-     private final String EMAIL_FORMAT_ERROR="Vous devez indiquer une adresse électronique valide.";
-     private final String USER_EXIST_ERROR="Un utilisateur portant ce nom existe déjà.";
-     private final String MISSING_EMAIL_MESSAGE="Vous devez indiquer une adresse électronique.";
-     String[]products={"jira-software"};
-     //<String>products =List.of("jira-software");
-     private static final Logger logger = LogManager.getLogger(UsersApiTests.class);
+    final String  ERROR_MESSAGE="[You are not authenticated. Authentication required to perform this operation.]";
+    private final String PRODCUTS_Missing="Vous devez indiquer les produits auxquels l'utilisateur peut accéder.";
+    private final String PRODUCT_ERROR_MESSAGE="Impossible de créer un utilisateur : nom de produit Jira non valide fourni dans la demande.";
+    private final String EMAIL_FORMAT_ERROR="Vous devez indiquer une adresse électronique valide.";
+    private final String USER_EXIST_ERROR="Un utilisateur portant ce nom existe déjà.";
+    private final String MISSING_EMAIL_MESSAGE="Vous devez indiquer une adresse électronique.";
+    String[]products={"jira-software"};
+    //<String>products =List.of("jira-software");
+    private static final Logger logger = LogManager.getLogger(UsersApiTests.class);
 
 
     @BeforeMethod()
     public void intialize()
     {
-         asserts=new GenericAssertsCalls();
+        asserts=new GenericAssertsCalls();
         userClass=new UserPOJO();
         UtlisClass utlisClass1=new UtlisClass();
 
 
     }
 
-   //Method usefull for verifying the api is accesible only by authentification
+    //Method usefull for verifying the api is accesible only by authentification
     @Test()
     public void verifyTheResponseShouldReturn404WithoutAuthentifcation()
     {
@@ -51,7 +50,7 @@ public class UsersApiTests extends UsersApi {
     public void verifyTheResponseShouldReturnTheCorrectErrorMessage()
     {
         res=recuperateTheListOfUsersxp(1);
-         logger.info("The response is :",res);
+        logger.info("The response is :",res);
     }
 
     //Add a user Api
@@ -60,7 +59,7 @@ public class UsersApiTests extends UsersApi {
     public void verifyThatTheCreateUserTurn400WithEmailAndEmptyProducts()
     {
         userClass.setEmailAddress("testjjjooa@atlassian.com");
-         logger.info(userClass.getEmailAdress());
+        logger.info(userClass.getEmailAdress());
         res=createUser(userClass);
         asserts.assertResponseStatus(400,res);
         logger.info("The response status is 400");
