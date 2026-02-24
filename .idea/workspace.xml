@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bd54436-5ef9-41d2-8872-a78f03feca8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConfigReader/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/environment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Bases/Api/GenericApiCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Bases/Asserts/GenericAssertsCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/Bases/Api/GenericApiCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/Bases/Asserts/GenericAssertsCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApiTests/Avatars/AvtarsApiTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApiTests/Groups/GroupsApiTestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApiTests/Users/UsersApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApis/AvatarsApi/AvatarsApis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApis/GroupsApi/GroupsApis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApis/UsersApi/UsersApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JiraAutomationPackage/Pojos/UserPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utlis/UtlisClass.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="38Ulah7zQsMXOuHXMwbylkn2XQL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rim Gammoudi/Desktop/TestAutomation selenium review&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rim Gammoudi\Desktop\TestApiAutomation\jiraApiAutomation\src\test\java\JiraAutomationPackage\Bases" />
+      <recent name="C:\Users\Rim Gammoudi\Desktop\TestApiAutomation\jiraApiAutomation\src\test\java\JiraAutomationPackage" />
+      <recent name="C:\Users\Rim Gammoudi\Desktop\TestApiAutomation\jiraApiAutomation\src\test\java\JiraApis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rim Gammoudi\Desktop\TestApiAutomation\jiraApiAutomation\src\main\ApiSchema\UsersSchemas" />
+      <recent name="C:\Users\Rim Gammoudi\Desktop\TestApiAutomation\jiraApiAutomation\src\test\java\JiraAutomationPackage\Bases" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GroupsApis.readProperties" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiraApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JiraAutomationPackage.JiraApis.GroupsApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JiraAutomationPackage.JiraApis.GroupsApi" />
+      <option name="MAIN_CLASS_NAME" value="JiraAutomationPackage.JiraApis.GroupsApi.GroupsApis" />
+      <option name="METHOD_NAME" value="readProperties" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersApiTests.verifyThatTheCreateUserTurn400WithEmailAndEmptyProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiraApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JiraAutomationPackage.JiraApiTests.Users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JiraAutomationPackage.JiraApiTests.Users" />
+      <option name="MAIN_CLASS_NAME" value="JiraAutomationPackage.JiraApiTests.Users.UsersApiTests" />
+      <option name="METHOD_NAME" value="verifyThatTheCreateUserTurn400WithEmailAndEmptyProducts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersApiTests.verifyTheApiReturn400WhenTheEmailIsEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiraApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JiraAutomationPackage.JiraApiTests.Users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JiraAutomationPackage.JiraApiTests.Users" />
+      <option name="MAIN_CLASS_NAME" value="JiraAutomationPackage.JiraApiTests.Users.UsersApiTests" />
+      <option name="METHOD_NAME" value="verifyTheApiReturn400WhenTheEmailIsEmpty" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersApiTests.verifyTheApiReturnTheCorrectErrorMessageWhenTheEmailExist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiraApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JiraAutomationPackage.JiraApiTests.Users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JiraAutomationPackage.JiraApiTests.Users" />
+      <option name="MAIN_CLASS_NAME" value="JiraAutomationPackage.JiraApiTests.Users.UsersApiTests" />
+      <option name="METHOD_NAME" value="verifyTheApiReturnTheCorrectErrorMessageWhenTheEmailExist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersApiTests.verifyTheApiReturnTheCorrectErrorMessageWhenTheEmailIsEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiraApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JiraAutomationPackage.JiraApiTests.Users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JiraAutomationPackage.JiraApiTests.Users" />
+      <option name="MAIN_CLASS_NAME" value="JiraAutomationPackage.JiraApiTests.Users.UsersApiTests" />
+      <option name="METHOD_NAME" value="verifyTheApiReturnTheCorrectErrorMessageWhenTheEmailIsEmpty" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UsersApiTests.verifyThatTheCreateUserTurn400WithEmailAndEmptyProducts" />
+        <item itemvalue="TestNG.GroupsApis.readProperties" />
+        <item itemvalue="TestNG.UsersApiTests.verifyTheApiReturnTheCorrectErrorMessageWhenTheEmailIsEmpty" />
+        <item itemvalue="TestNG.UsersApiTests.verifyTheApiReturn400WhenTheEmailIsEmpty" />
+        <item itemvalue="TestNG.UsersApiTests.verifyTheApiReturnTheCorrectErrorMessageWhenTheEmailExist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bd54436-5ef9-41d2-8872-a78f03feca8c" name="Changes" comment="" />
+      <created>1768862103668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768862103668</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApiTests/Users/UsersApiTests.java</url>
+          <line>59</line>
+          <properties class="JiraAutomationPackage.JiraApiTests.Users.UsersApiTests" method="verifyThatTheCreateUserTurn400WithEmailAndEmptyProducts">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApiTests/Users/UsersApiTests.java</url>
+          <line>71</line>
+          <properties class="JiraAutomationPackage.JiraApiTests.Users.UsersApiTests" method="verifyThatTheApiReturnTheCorrectErrorMessageWithAnEmailAndEmptyProducts">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/JiraAutomationPackage/JiraApiTests/Users/UsersApiTests.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
