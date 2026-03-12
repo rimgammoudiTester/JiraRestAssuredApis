@@ -16,7 +16,7 @@ sh "mvn clean"
 stage('Test')
 {
 steps{
-sh 'mvn test -DsuiteXmlFile=suites/suites.xml'
+sh 'mvn clean test -Dtest=jqlApiTestCases'
 }
 }
 
