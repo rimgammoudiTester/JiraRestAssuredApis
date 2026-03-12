@@ -4,7 +4,7 @@ pipeline {
     tools {
         // Assurez-vous que ce nom correspond au nom configuré dans
         // "Manage Jenkins" -> "Global Tool Configuration" -> "Maven"
-        maven 'Maven_3.9'
+        maven 'maventest'
     }
 
     stages {
