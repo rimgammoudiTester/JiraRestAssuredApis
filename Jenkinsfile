@@ -69,7 +69,9 @@ pipeline {
                    -w /app -> Définit le répertoire de travail dans le conteneur
                    mvn clean test... -> Exécute vos tests TestNG
                 */
-                bat "docker run --rm -v \"%WORKSPACE%\":/app -w /app maven:3.9.0-eclipse-temurin-17 mvn clean test -Dtest=jqlApiTestCases"
+               // bat "docker run --rm -v \"%WORKSPACE%\":/app -w /app maven:3.9.0-eclipse-temurin-17 mvn clean test -Dtest=jqlApiTestCases"
+               //bat "docker run --rm -v \"%WORKSPACE%\":/app -v \"C:/Users/Rim Gammoudi/.m2\":/root/.m2 -w /app maven:3.9.0-eclipse-temurin-17 mvn clean test -Dtest=jqlApiTestCases"
+               bat "docker run --rm -v \"%WORKSPACE%\":/app -v \"C:/Users/Rim Gammoudi/.m2\":/root/.m2 -w /app maven:3.9.0-eclipse-temurin-17 mvn clean test -Dtest=jqlApiTestCases"
             }
         }
     }
